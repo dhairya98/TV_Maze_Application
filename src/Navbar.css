@@ -1,0 +1,40 @@
+.navbar__container{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__left h1{
+    text-transform: uppercase;
+    margin: 0 !important;
+    font-weight: 400;
+    color: gray
+}
+
+.navbar__right{
+    position: relative;
+    top: 30px;
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.navbar__right input{
+    width: 250px;
+    /* border: none; */
+    /* outline: none; */
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 0 3px;
+    box-sizing: border-box;
+}
+
+.icon{
+    height: 30px !important;
+    width: 30px !important;    
+    transform: rotateY(180deg) !important;
+}
+
+hr{
+    border: 1px solid black;
+}

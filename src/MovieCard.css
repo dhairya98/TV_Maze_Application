@@ -1,0 +1,33 @@
+.moviecard__container{
+    /* margin-right: 15px; */
+    /* border: 1px solid black; */
+    min-width: 200px !important;
+    width: 220px;
+    height: 120px;
+}
+.moviecard__container img{
+    width: 220px;
+    height: 120px;
+    object-fit: cover ;
+}
+
+.moviecard{
+    /* border: 1px solid black; */
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.moviecard h1{
+    /* text-decoration: none !important; */
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.NavLink{
+    text-decoration: none;
+}
+
+/* Search, Stars*/
